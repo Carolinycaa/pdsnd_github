@@ -30,7 +30,7 @@ def get_filters():
         print("\nAccepted input:\nFull name of city; not case sensitive (e.g. chicago or CHICAGO).\nFull name in title case (e.g. Chicago).")
         #Taking user input and converting into lower to standardize them
         #You will find this happening at every stage of input throughout this
-        city = input().lower()
+        city = input("Enter the name of the city: ").lower()
 
         if city not in CITY_DATA.keys():
             print("\nPlease check your input, it doesn\'t appear to be conforming to any of the accepted input formats.")
@@ -45,7 +45,7 @@ def get_filters():
         print("\nPlease enter the month, between January to June, for which you're seeking the data:")
         print("\nAccepted input:\nFull month name; not case sensitive (e.g. january or JANUARY).\nFull month name in title case (e.g. April).")
         print("\n(You may also opt to view data for all months, please type 'all' or 'All' or 'ALL' for that.)")
-        month = input().lower()
+        month = input("Enter the name of the month: ").lower()
 
         if month not in MONTH_DATA.keys():
             print("\nInvalid input. Please try again in the accepted input format.")
