@@ -10,7 +10,7 @@ Project Overview
 
 ### Description
 
-This project focuses on pandas library usage and simple statistics methods to perform descriptive analysis on the bikeshare data from three major U.S. cities - Chicago, Washington, and New York City - to display information such as most popular days or most common stations.
+In this project, I made use of Python to explore data related to bike share systems for three major cities in the United States - Chicago, New York City, and Washington
 
 ### Files used
 
